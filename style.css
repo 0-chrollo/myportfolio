@@ -2,8 +2,8 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-radius:15px;
-    padding:6px;
+    border-radius:6px;
+    padding:8px;
     background-color:  rgb(243, 240, 238);
     }
     
@@ -22,7 +22,7 @@
     .nav-buttons a {
     color: white;
     text-decoration: none;
-    padding: 12px;
+    padding: 8px;
     margin: 0 5px;
     border-radius: 22px;
     background-color:gray;
@@ -267,4 +267,30 @@
   .read-blogs-btn:hover {
     background-color: #ddd;
   }
+  /* Default styles */
+body {
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 0;
+  padding: 0;
+}
+/* Small screens */
+@media (max-width: 650px) {
+    body {
+      font-size: 12px;
+    }
+  }
   
+  /* Medium screens */
+  @media (min-width: 680px) and (max-width: 1023px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
