@@ -1,0 +1,270 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:15px;
+    padding:6px;
+    background-color:  rgb(243, 240, 238);
+    }
+    
+    .logo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 16x;
+    }
+    
+    .nav-buttons {
+    display: flex;
+    }
+    
+    .nav-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 0 5px;
+    border-radius: 22px;
+    background-color:gray;
+    }
+    
+    .nav-buttons a:hover {
+    background-color:rgb(54, 54, 55);
+    color: red;
+    }
+   
+
+    .profile-section {
+        display:flex;
+        align-items: left;
+        gap: 5px;
+        padding: 1px;
+        background-color:gray;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.683);
+        border-radius: 680px;
+        max-width: 200px;
+        margin: 7px;
+        }
+        
+        .profile-section img {
+        width: 198px;
+        height: 300px;
+        object-fit:cover;
+        border-radius: 45%;
+        }
+     
+       
+           .profile-details{
+
+            color:rgb(0, 0, 0);
+            border-radius:30px;
+            padding:15px;
+            margin-left:99px;
+           }
+           section{
+
+            background-color: rgb(243, 240, 238);
+            padding:10px;
+            border-radius:15px;
+           }
+
+        .projects{
+
+            background-color:  rgb(243, 240, 238);
+            border-radius:19px;
+           	display: flex;
+	flex-direction: column;
+	align-items: center;
+           
+        }
+        .resume{
+ color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 0 5px;
+            border-radius: 22px;
+            background-color:gray;
+        }
+ /* Hover effect */
+ .resume:hover {
+    background-color:rgb(54, 54, 55);
+    color: red;
+  }
+
+  /* Text color change when clicked */
+  .resume:active {
+    color: red;
+  }
+        .me{
+
+            padding: 8px;
+            margin-right:60px;
+            border-radius: 13px;
+            background-color:rgb(214, 207, 207);
+        }
+
+   /* CSS for centering h2 and line */
+   h1 {
+    color: white;
+    text-align: center;
+     text-decoration: none;
+            padding: 2px;
+            margin: 0 138px;
+            border-radius: 22px;
+            background-color:rgb(149, 145, 145);
+            font-size: 26px;
+  }
+
+  hr {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  /* CSS for centering h3 */
+  h3 {
+    text-align: center;
+  }
+
+  /* CSS for aligning project info on the right side */
+  .project-info {
+    float: left;
+    width: 90%;
+    padding: 9px;
+  }
+  
+  .project-image {
+    /* Set the container to a fixed size */
+    width: 450px;
+    height: 450px;
+    /* Center the image within the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add some margin around the container */
+    margin: 0 auto;
+    /* Remove default border */
+    border: none;
+  }
+  
+  .project-image img {
+    /* Set the image to take up the maximum size within the container */
+    max-width: 100%;
+    max-height: 104%;
+    object-fit: cover;
+    /* Add border radius to create rounded corners */
+    border-radius: 5px;
+    /* Add a box shadow on hover */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-image img:hover {
+    /* Add hover effect with box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+
+  /* CSS for view button */
+  .view-button {
+    display: block;
+   margin:80px;
+    background-color:rgb(149, 145, 145);
+    color: white;
+    
+    padding: 10px;
+    
+    text-decoration: none;
+    margin: 0 160px;
+    text-align: center;
+   border-radius: 10px;
+
+
+  }
+
+
+/* Hover effect */
+.view-button:hover {
+   background-color:rgb(54, 54, 55);
+   color: red;
+ }
+
+ /* Text color change when clicked */
+ .resume:active {
+   color: red;
+ }
+
+  /* Blogs*/
+
+
+  .blogs{
+
+    background-color:  rgb(243, 240, 238);
+    border-radius:19px;
+ 
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    margin-left: 10px;
+  }
+  
+  .date {
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .blog-post {
+    margin-top: 5px;
+  }
+  
+  .blog-post h1 {
+    font-size: 24px;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .hover-box {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hover-box:hover {
+    background-color: #ddd;
+  }
+  
+  .read-blogs-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .read-blogs-btn:hover {
+    background-color: #ddd;
+  }
+  
