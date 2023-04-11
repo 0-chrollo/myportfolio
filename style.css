@@ -83,15 +83,19 @@
             border-radius:15px;
            }
 
-        .projects{
-
-            background-color:  rgb(243, 240, 238);
-            border-radius:19px;
-           	display: flex;
-	flex-direction: column;
-	align-items: center;
+           .projects {
+            background-color: rgb(243, 240, 238);
+            border-radius: 19px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; /* Set width to 100% */
+            box-sizing: border-box; /* Include border width in total width */
+            padding: 16px; /* Add padding for spacing between border and content */
+          }
+          
            
-        }
+      
         .resume{
  color: white;
             text-decoration: none;
