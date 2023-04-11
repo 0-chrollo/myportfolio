@@ -3,14 +3,16 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  padding: 8px;
+  padding: 4px;
+  background-color: rgb(226, 226, 226); /* Set background color to gray */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
  
 }
 
 .logo {
   background-color: #000000;
   color: white;
-  border-radius: 50%;
+  border-radius: 30%;
   padding: 1rem;
   font-size: 1rem;
 }
@@ -22,9 +24,9 @@
 .nav-buttons a {
   color: white;
   text-decoration: none;
-  padding: 1rem;
+  padding: 2rem;
   margin: 0 1rem;
-  border-radius: 22px;
+  border-radius: 20px;
   background-color: gray;
 }
 
@@ -69,7 +71,7 @@ body{
 }
 section{
 
-  
+  border-radius: 15px;
   padding: 2px;
   background-color: rgb(226, 226, 226); /* Set background color to gray */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
@@ -80,9 +82,9 @@ section{
            .profile-details{
 
             color:rgb(0, 0, 0);
-            border-radius:30px;
-            padding:15px;
+           
             margin-left:80px;
+           
            }
          
     .projects {
@@ -174,8 +176,7 @@ section{
     object-fit: cover;
     /* Add border radius to create rounded corners */
     border-radius: 5px;
-    /* Add a box shadow on hover */
-    transition: box-shadow 0.3s ease-in-out;
+ 
   }
   
   .project-image img:hover {
@@ -292,54 +293,28 @@ section{
 body {
   font-size: 16px;
   line-height: 1.9;
-  margin: 0;
-  padding: 0;
+  margin: 90;
+  padding: 80;
 }
 .profile-section {
   max-width: 170px;
   margin: 29px;
   display: flex;
   align-items: center;
-  position: relative; /* add position to enable absolute positioning of image container */
-}
 
-.profile-section:hover .image-container {
-  transform: scale(1.2); /* scale the image container on hover */
 }
 
 .image-container {
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out; /* add transition for smoother scaling */
+
 }
 
 .profile-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.profile-details {
-  position:absolute;
-  top: 100px; /* fixed typo */
-  left: 190px; /* move the profile details to the left side */
-  width: 199px; /* adjust the width accordingly */
-  padding: 0.0px;
-
-  color: #000000;
-  text-align: center;
-  transition: left 0.3s ease-in-out; /* add transition to animate the movement */
-}
-
-.profile-section:hover .profile-details {
-  left: 60; /* show the profile details on hover */
-}
-
-.me {
-  font-size: 18px;
-  margin-bottom: 5px;
 }
 
 /* Add media queries for mobile screens */
@@ -349,15 +324,7 @@ body {
     padding: 5px;
   }
 
-  .nav-buttons {
-    display: contents;
-  }
 
-  .profile-details {
-    left: 140px; /* reset left position to make details always visible on smaller screens */
-    width: 4; /* make details take up full width on smaller screens */
-    top:0%;
-  }
 
   .Projects h1 {
     font-size: 24px;
@@ -390,9 +357,7 @@ body {
   transform: scale(1.1);
 }
 
-.profile-section img:hover {
-  transform: rotate(5deg);
-}
+
 
 .slide-button:hover {
   cursor: pointer;
