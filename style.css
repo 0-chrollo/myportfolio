@@ -60,9 +60,22 @@
   border: 3px solid gray; /* Add a border with desired properties */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a box shadow with desired properties */
 }
+body{
+ 
+  padding: 2px;
+  background-color: rgb(255, 255, 255); /* Set background color to gray */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.683);
 
+}
+section{
 
-     
+  
+  padding: 2px;
+  background-color: rgb(226, 226, 226); /* Set background color to gray */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
+
+}
+
        
            .profile-details{
 
@@ -71,16 +84,7 @@
             padding:15px;
             margin-left:80px;
            }
-           section{    
-            padding:10px;
-            border-radius:15px;
-            display: flex;
-            align-items: right;
-            width: 100%; /* Set width to 100% */
-            box-sizing: border-box; /* Include border width in total width */
-            padding: 27px; 
-           }
-
+         
     .projects {
             background-color: rgb(243, 240, 238);
             border-radius: 19px;
