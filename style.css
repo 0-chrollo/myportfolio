@@ -48,18 +48,8 @@
     margin: 0 0.5rem;
   }
 }
-section {
+.section-container {
   display: flex;
-}
-
-.profile-section {
-  gap: 17px;
-  padding: 2px;
-  background-color: gray;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.683);
-  border-radius: 680px;
-  max-width: 200px;
-
 }
 
 .profile-section img {
@@ -67,7 +57,10 @@ section {
   height: 300px;
   object-fit: contain;
   border-radius: 45%;
+  border: 3px solid gray; /* Add a border with desired properties */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a box shadow with desired properties */
 }
+
 
      
        
@@ -78,9 +71,7 @@ section {
             padding:15px;
             margin-left:80px;
            }
-           section{
-
-            background-color: rgb(243, 240, 238);
+           section{    
             padding:10px;
             border-radius:15px;
             display: flex;
