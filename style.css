@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding:10px;
-  }
+  
 }
 
 .logo {
@@ -23,19 +23,21 @@
   color: white;
   border-radius: 30%;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 90rem;
 }
 
 .nav-buttons {
-  display: inline-flex;
+  display: flex;
+justify-content: center;
+margin-top: 0rem;
 }
 
 .nav-buttons a {
   color: white;
   text-decoration: none;
-  padding: 2rem;
-  margin: 0 1rem;
-  border-radius: 20px;
+  padding: 89rem;
+  margin: 0 5rem;
+  border-radius:210px;
   background-color: gray;
 }
 
@@ -43,7 +45,7 @@
   background-color: rgb(54, 54, 55);
   color: red;
 }
-
+}
 @media (max-width: 600px) {
   /* Styles for small screens */
   .navbar {
