@@ -87,15 +87,12 @@ section{
            
            }
          
-    .projects {
-            background-color: rgb(243, 240, 238);
-            border-radius: 19px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%; /* Set width to 100% */
-            box-sizing: border-box; /* Include border width in total width */
-            padding: 16px; /* Add padding for spacing between border and content */
+    .Projects {
+      border-radius: 15px;
+      padding: 2px;
+      background-color: rgb(226, 226, 226); /* Set background color to gray */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
+    
           }
           
            
@@ -107,6 +104,8 @@ section{
             margin: 0 5px;
             border-radius: 22px;
             background-color:gray;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.554);
+
         }
  /* Hover effect */
  .resume:hover {
@@ -124,6 +123,8 @@ section{
             margin-right:60px;
             border-radius: 13px;
             background-color:rgb(214, 207, 207);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.331);
+
         }
 
    /* CSS for centering h2 and line */
@@ -136,6 +137,8 @@ section{
             border-radius: 22px;
             background-color:rgb(149, 145, 145);
             font-size: 26px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.453);
+
   }
 
   hr {
@@ -200,6 +203,7 @@ section{
     margin: 0 160px;
     text-align: center;
    border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
 
 
   }
