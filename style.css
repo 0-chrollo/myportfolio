@@ -6,7 +6,16 @@
   padding: 4px;
   background-color: rgb(226, 226, 226); /* Set background color to gray */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
- 
+  margin: 7px;
+}
+@media screen and (max-width: 738px) {
+
+  .navbar{
+
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:10px;
+  }
 }
 
 .logo {
@@ -76,6 +85,15 @@ section{
   background-color: rgb(226, 226, 226); /* Set background color to gray */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
 
+}
+@media screen and (max-width: 738px) {
+
+  section{
+
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:10px;
+  }
 }
 
        
