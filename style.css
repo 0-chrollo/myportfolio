@@ -29,13 +29,15 @@
   .nav-buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 0.1rem;
     padding: 0.1rem;
+    flex-shrink: 1; /* Add this line to allow buttons to shrink */
   }
-
+  
   .nav-buttons a {
-    flex-wrap: nowrap; 
-    margin: 0 0.25rem; 
+    flex-shrink: 1; /* Add this line to allow buttons to shrink */
+    margin: 0 0.25rem;
     display: flex;
     color: white;
     text-decoration: none;
@@ -46,6 +48,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
     border-bottom: 1px;
   }
+  
 
   .nav-buttons a:hover {
     background-color: rgb(54, 54, 55);
@@ -64,9 +67,17 @@
   }
 
   .nav-buttons a {
-    padding: 0.5rem;
-    margin: 0 0.5rem;
+    flex-shrink: 1; /* Add this line to allow buttons to shrink */
+    margin: 0 0.25rem;
     display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    background-color: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
+    border-bottom: 1px;
   }
 }
 
@@ -347,9 +358,17 @@ body {
   }
 
   .nav-buttons a {
-    padding: 0.25rem;
+    flex-shrink: 1; /* Add this line to allow buttons to shrink */
     margin: 0 0.25rem;
-    font-size: 0.5rem;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    background-color: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
+    border-bottom: 1px;
   }
 
   .section-container {
