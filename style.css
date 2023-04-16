@@ -8,44 +8,48 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
   margin: 7px;
 }
-@media screen and (max-width: 738px) {
-
-  .navbar{
-
+@media screen and (max-width: 600px) {
+  .navbar {
     flex-wrap: wrap;
     justify-content: center;
-    padding:10px;
-  
+    padding: 10px;
+  }
+
+  .logo {
+    background-color: #000000;
+    color: white;
+    border-radius: 30%;
+    padding: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.1rem;
+  }
+
+  .nav-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 20px;
+    background-color: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
+    border-bottom: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav-buttons a:hover {
+    background-color: rgb(54, 54, 55);
+    color: red;
+  }
 }
 
-.logo {
-  background-color: #000000;
-  color: white;
-  border-radius: 30%;
-  padding: 1rem;
-  font-size: 90rem;
-}
-
-.nav-buttons {
-  display: flex;
-justify-content: center;
-margin-top: 0rem;
-}
-
-.nav-buttons a {
-  color: white;
-  text-decoration: none;
-  padding: 89rem;
-  margin: 0 5rem;
-  border-radius:210px;
-  background-color: gray;
-}
-
-.nav-buttons a:hover {
-  background-color: rgb(54, 54, 55);
-  color: red;
-}
-}
 @media (max-width: 600px) {
   /* Styles for small screens */
   .navbar {
@@ -61,6 +65,7 @@ margin-top: 0rem;
     margin: 0 0.5rem;
   }
 }
+
 .section-container {
   display: flex;
 }
@@ -88,32 +93,7 @@ section{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
 
 }
-@media screen and (max-width: 738px) {
 
-  section{
-
-    flex-wrap: wrap;
-    justify-content: center;
-    padding:10px;
-  }
-}
-
-       
-           .profile-details{
-
-            color:rgb(0, 0, 0);
-           
-            margin-left:80px;
-           
-           }
-         
-    .Projects {
-      border-radius: 15px;
-      padding: 2px;
-      background-color: rgb(226, 226, 226); /* Set background color to gray */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.228);
-    
-          }
           
            
       
@@ -228,7 +208,13 @@ section{
 
   }
 
+.profile-details{
+  color:rgb(0, 0, 0);
+           
+  margin-left:80px;
+ 
 
+}
 /* Hover effect */
 .view-button:hover {
    background-color:rgb(54, 54, 55);
@@ -341,55 +327,79 @@ body {
   object-fit: cover;
 }
 
-/* Add media queries for mobile screens */
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 300px) {
+  .navbar {
+    padding: 2px;
+  }
+
   .logo {
-    font-size: 12px;
+    font-size: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .nav-buttons a {
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+    font-size: 0.5rem;
+  }
+
+  .section-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-section {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .profile-section img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    border: 2px solid gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+  }
+
+  .profile-details {
+    font-size: 0.75rem;
+    margin-top: 5px;
+  }
+
+  .Projects {
     padding: 5px;
   }
 
-
-
-  .Projects h1 {
-    font-size: 24px;
-  }
-
-  .project-info p,
-  .project-info b {
-    font-size: 12px;
-  }
-
-  .project-image img {
+  .project-info {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    padding: 5px;
+    font-size: 0.75rem;
   }
 
-  .slide-button {
-    display: none;
+  .resume {
+    padding: 6px;
+    margin: 0 2px;
+    font-size: 0.5rem;
   }
 
-  .view-button {
-    font-size: 12px;
+  .me {
+    padding: 6px;
+    margin-right: 10px;
+    font-size: 0.75rem;
   }
-}
 
-/* Add dynamic effects */
-.nav-buttons a:hover {
-  background-color: rgb(54, 54, 55);
-  color: red;
-  transform: scale(1.1);
-}
+  h1 {
+    margin: 0 30px;
+    font-size: 1rem;
+  }
 
+  hr {
+    width: 80%;
+    margin: 0 auto;
+  }
 
-
-.slide-button:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
-.view-button:hover {
-  background-color: red;
-  color: white;
-  transform: scale(1.1);
+  h3 {
+    font-size: 0.75rem;
+  }
 }
