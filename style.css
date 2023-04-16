@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
   .navbar {
     display: flex;
     flex-wrap: nowrap;
@@ -318,17 +318,17 @@ body {
   object-fit: cover;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 860px) {
   .navbar {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
-    padding: 4px;
+    padding: 10px;
     background-color: rgb(226, 226, 226);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
-    margin: 7px;
+    margin: 15px;
   }
   
   .logo {
@@ -336,8 +336,8 @@ body {
     background-color: #000000;
     color: white;
     border-radius: 30%;
-    padding: 0.3rem;
-    font-size: 3rem;
+    padding: 0.2rem;
+    font-size: 1rem;
     margin-bottom: 0rem;
   }
   
@@ -346,8 +346,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 0.1rem;
-    padding: 0.1rem;
-    flex-shrink: 0; /* Add this line to prevent nav buttons from shrinking */
+    padding: 0.199rem;
+    flex-shrink: 1; /* Add this line to prevent nav buttons from shrinking */
   }
   
   .nav-buttons a {
@@ -361,7 +361,7 @@ body {
     border-radius: 20px;
     background-color: gray;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
-    border-bottom: 1px;
+    border-bottom: 9px;
   }
   
 
