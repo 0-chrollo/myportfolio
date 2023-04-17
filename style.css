@@ -347,7 +347,7 @@ body {
     align-items: center;
     margin-top: 0.1rem;
     padding: 0.199rem;
-    flex-shrink: 1; /* Add this line to prevent nav buttons from shrinking */
+    flex-shrink: 0; /* Add this line to prevent nav buttons from shrinking */
   }
   
   .nav-buttons a {
@@ -361,7 +361,7 @@ body {
     border-radius: 20px;
     background-color: gray;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.316);
-    border-bottom: 9px;
+    border-bottom: 0px;
   }
   
 
@@ -425,3 +425,63 @@ body {
     font-size: 0.75rem;
   }
 }
+
+
+@media (max-width: 730px) {
+  .navbar {
+  flex-wrap: nowrap; /* Wrap the navbar items for smaller screens */
+  }
+  
+  .logo {
+  margin-bottom: 0rem; /* Add some margin to the logo for spacing */
+  }
+  
+  .nav-buttons {
+  justify-content: center; /* Center align the nav buttons for smaller screens /
+  margin-top: 1rem; / Add some margin to the top of nav buttons for spacing */
+  }
+  
+  .nav-buttons a {
+  margin: 0.25rem; /* Adjust margin for smaller screens */
+  }
+  
+  .section-container {
+  flex-direction: grid; /* Change the flex direction to column for smaller screens */
+  }
+  
+  .profile-section img {
+  width: 100%; /* Set the profile image width to 100% for smaller screens /
+  height: auto; / Set height to auto for maintaining aspect ratio /
+  margin-bottom: 1rem; / Add some margin to the bottom of profile image for spacing */
+  }
+  
+  .project-info {
+  width: 100%; /* Set the project info width to 100% for smaller screens /
+  padding: 1rem; / Adjust padding for smaller screens */
+  }
+  
+  .project-image {
+  width: 100%; /* Set the project image width to 100% for smaller screens /
+  height: auto; / Set height to auto for maintaining aspect ratio /
+  margin: 0; / Remove margin for smaller screens /
+  border: none; / Remove border for smaller screens */
+  }
+  
+  .project-image img {
+  max-width: 100%; /* Set the image width to 100% for smaller screens /
+  max-height: none; / Remove max height for smaller screens /
+  border-radius: 0; / Remove border radius for smaller screens */
+  }
+  
+  .resume, .me, h1 {
+  margin: 1rem; /* Add margin for spacing */
+  }
+  
+  h3 {
+  margin-top: 1rem; /* Add margin to the top of h3 for spacing */
+  }
+  
+  hr {
+  width: 80%; /* Adjust width of hr for smaller screens */
+  }
+  }
